@@ -1,0 +1,96 @@
+body{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 600px;
+    text-align: center;
+    height: 400px;
+    background-color: rgba(0,0,0,0.65) ;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+
+.container img{
+    margin-left: 60px;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.container a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 0 px;
+}
+input{
+    height: 35px;
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    border-color:#fff6e0 ;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+input::placeholder{
+    font-style: italic;
+}
+
+a{
+    font-size: 20px;
+}
+
+button {
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#btnLogin{
+    float: left;
+    margin-left: 150px;
+    background-color: #ff3475;
+}
+
+#btnRegister{
+    float: right;
+    margin-right: 70px;
+    background-color: #ffac27;
+}
